@@ -27,7 +27,7 @@ const btnLoad = document.querySelector("#btn1");
 btnLoad.addEventListener("click", (e) => {
   const inn1 = in1.value;
   const inn2 = in2.value;
-  if (inn1 > 40 || inn1 < 0) {
+  if (inn1 > 60 || inn1 < 0) {
     alert("ID không thể thực hiện !! 😪");
   } else if (inn2 > 140 || inn2 < 0) {
     alert("Password không thể thực hiện!! 😥");
